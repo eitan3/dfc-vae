@@ -1,0 +1,15 @@
+dataset_path = ""
+prefix = "vae_celeba_simple_test7"
+model_export_folder = "./checkpoints/" + prefix + "/"
+img_size = 128
+batch_size = 8
+num_fc_hidden_units = 1024
+num_latent_space = 128
+learning_rate = 5e-4
+optimizer = 'adam'
+wd = 0.000
+beta1 = 0.9
+num_epochs = 1000
+log_interval = 20
+input_shape = (batch_size, 3, img_size, img_size)
+label_shape = (batch_size, 3, img_size, img_size)
